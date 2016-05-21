@@ -1,0 +1,25 @@
+Richard III (31,222 words total)
+
+Word counts by bucket:
+0 male (0.0%), 0 female (0.0%), 0 religion (0.0%)
+243 male (2.7099364%), 117 female (1.3047842%), 38 religion (0.42377606%)
+79 male (2.1449904%), 11 female (0.29866958%), 21 religion (0.57018733%)
+218 male (3.1054132%), 20 female (0.28490028%), 35 religion (0.4985755%)
+91 male (1.2201662%), 95 female (1.2737999%), 18 religion (0.24135157%)
+72 male (1.7586713%), 4 female (0.097703956%), 21 religion (0.5129458%)
+
+Total word counts: 703 male (2.2516174%), 247 female (0.79110885%), 133 religion (0.42598167%)
+
+
+Fifth Business (103,174 words total)
+
+Word counts by bucket:
+0 male (0.0%), 0 female (0.0%), 0 religion (0.0%)
+665 male (2.8428524%), 439 female (1.8767099%), 33 religion (0.14107387%)
+227 male (1.3243874%), 241 female (1.4060677%), 12 religion (0.07001167%)
+450 male (2.7690604%), 199 female (1.22454%), 32 religion (0.19691096%)
+478 male (2.8873453%), 262 female (1.5826035%), 22 religion (0.13289036%)
+261 male (1.7757518%), 272 female (1.8505919%), 6 religion (0.04082188%)
+469 male (3.1111112%), 346 female (2.2951908%), 19 religion (0.12603648%)
+
+Total word counts: 2550 male (2.4715528%), 1759 female (1.7048869%), 124 religion (0.120185316%)
