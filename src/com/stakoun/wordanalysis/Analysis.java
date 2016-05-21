@@ -5,15 +5,15 @@ import java.util.Locale;
 
 public class Analysis
 {
-	String title;
-	String[] wordLabels;
-	String[][] words;
-	String[] buckets;
-	int[][] wordCounts;
-	float[][] wordPercentages;
-	int[] totalWordCounts;
-	float[] totalWordPercentages;
-	int totalWords;
+	private String title;
+	private String[] wordLabels;
+	private String[][] words;
+	private String[] buckets;
+	private int[][] wordCounts;
+	private float[][] wordPercentages;
+	private int[] totalWordCounts;
+	private float[] totalWordPercentages;
+	private int totalWords;
 	
 	public Analysis(String title, String text, String[] wordLabels, String[][] words)
 	{
