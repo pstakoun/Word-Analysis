@@ -7,7 +7,6 @@ public class Analysis
 {
 	private String title;
 	private String[] wordLabels;
-	private String[][] words;
 	private String[] buckets;
 	private int[][] wordCounts;
 	private float[][] wordPercentages;
@@ -24,7 +23,6 @@ public class Analysis
 	{
 		this.title = title;
 		this.wordLabels = wordLabels;
-		this.words = words;
 		totalWords = text.split("\\s+").length;
 		buckets = sectionSeperator == null ? new String[] { text } : text.split(sectionSeperator);
 		wordCounts = new int[buckets.length][words.length];
@@ -50,24 +48,24 @@ public class Analysis
 	{
 		String result = "";
 		for (int i = 0; i < analyses.length; i++) {
-			result += analyses[i].getTitle() + " (" + NumberFormat.getNumberInstance(Locale.US).format(analyses[i].getTotalWords()) + " words total)\n\n";
-			result += "Word counts by bucket:\n";
+			result += analyses[i].getTitle() + " (" + NumberFormat.getNumberInstance(Locale.US).format(analyses[i].getTotalWords()) + " words total)"+System.lineSeparator()+System.lineSeparator();
+			result += "Word counts by bucket:"+System.lineSeparator();
 			int[][] wordCounts = analyses[i].getWordCounts();
 			String[] wordLabels = analyses[i].getWordLabels();
 			float[][] wordPercentages = analyses[i].getWordPercentages();
 			for (int j = 0; j < wordCounts.length; j++) {
 				for (int k = 0; k < wordCounts[j].length; k++)
 					result += wordCounts[j][k] + " " + wordLabels[k]  + " (" + wordPercentages[j][k] + "%)" +  ((k == wordCounts[j].length - 1) ? "" : ", ");
-				result += "\n";
+				result += System.lineSeparator();
 			}
-			result += "\n";
+			result += System.lineSeparator();
 			result += "Total word counts: ";
 			int[] totalWordCounts = analyses[i].getTotalWordCounts();
 			float[] totalWordPercentages = analyses[i].getTotalWordPercentages();
 			for (int j = 0; j < totalWordCounts.length; j++)
 				result += totalWordCounts[j] + " " + wordLabels[j] + " (" + totalWordPercentages[j] + "%)" + ((j == totalWordCounts.length - 1) ? "" : ", ");
 			
-			result += ((i == analyses.length - 1) ? "" : "\n\n\n");
+			result += ((i == analyses.length - 1) ? "" : System.lineSeparator()+System.lineSeparator()+System.lineSeparator());
 		}
 		return result;
 	}

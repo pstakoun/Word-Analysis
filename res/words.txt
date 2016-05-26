@@ -1,0 +1,5 @@
+male:he,hes,him,his,man,mans,men,mens,male,males
+female:she,shes,her,hers,woman,womans,women,womens,lady,ladies
+war:war,wars,battle,battles,battling,fight,fights,fighting,duel,duels,dueling,attack,attacks,attacking,surrender,surrenders,surrendering,kill,kills,killing,killer,killers
+love:love,loves,loving,lover,lovers,sex,kiss
+religion:god,gods,pray,prays,prayer,praying,religion,religions,religious,saint,saints

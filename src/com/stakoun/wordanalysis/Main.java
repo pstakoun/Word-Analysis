@@ -9,7 +9,7 @@ public class Main
 {
 	public static void main(String[] args) throws IOException
 	{
-		String[] wordGroups = new String(Files.readAllBytes(Paths.get("res/words.csv")), Charset.defaultCharset()).split("\n");
+		String[] wordGroups = new String(Files.readAllBytes(Paths.get("res/words.txt")), Charset.defaultCharset()).split("\n");
 		String[] wordLabels = new String[wordGroups.length];
 		String[][] words = new String[wordGroups.length][];
 		for (int i = 0; i < wordGroups.length; i++) {
